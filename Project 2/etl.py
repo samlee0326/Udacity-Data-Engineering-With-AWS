@@ -47,7 +47,7 @@ def main():
         - new tables in the AWS Clusters
     """
     config = configparser.ConfigParser()
-    config.read('dwh.cfg')
+    config.read('./config/dwh.cfg')
     print('Connected')
     conn = psycopg2.connect("host={} dbname={} user={} password={} port={}".format(*config['CLUSTER'].values()))
     cur = conn.cursor()
