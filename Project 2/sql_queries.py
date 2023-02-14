@@ -10,7 +10,7 @@ import configparser
 
 # CONFIG
 config = configparser.ConfigParser()
-config.read('dwh.cfg')
+config.read('./config/dwh.cfg')
 
 # DROP TABLES
 staging_events_table_drop = "DROP TABLE IF EXISTS staging_events;"
