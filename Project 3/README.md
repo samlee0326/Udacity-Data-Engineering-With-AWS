@@ -19,7 +19,7 @@ Some of the early adopters have agreed to share their data for research purposes
 ### Project Summary
 As a data engineer on the STEDI Step Trainer team, you'll need to extract the data produced by the STEDI Step Trainer sensors and the mobile app, and curate them into a data lakehouse solution on AWS so that Data Scientists can train the learning model.
 
-### Folder Explanation
+### Directories
 1. **Code**: This includes all python codes to create glue jobs to process data.
 2. **Screenshot**: This includes screenshots to check processed data using AWS Athena.
 
