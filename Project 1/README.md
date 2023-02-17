@@ -19,10 +19,10 @@ Here are examples of filepaths to two files in the dataset.
 
 ### Project Structure
 Files and their purposes:
-<div align="center">
+
 |File      |Info|
 |----------|--------:|
-|event_data|CSV files partitioned by date.|
-|etc  |Contains a image file for jupyter notebook, and a csv file for processed data|
-|Modeling_with_Apache_Cassandra.ipynb| A Jupyter notebook file to create database and query data.|
-</div>
+|<div align="center">event_data</div>|CSV files partitioned by date.|
+|<div align="center">etc</div>|Contains a image file for jupyter notebook, and a csv file for processed data|
+|<div align="center">Modeling_with_Apache_Cassandra.ipynb</div>| A Jupyter notebook file to create database and query data.|
+
