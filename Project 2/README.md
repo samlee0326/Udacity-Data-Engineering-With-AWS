@@ -50,11 +50,11 @@ One bucket contains infomation for song (songs and artist) and the other bucket 
 
 ### **Soure Code**
 
-* src
- + [create_tables.py] -- This file will execute queries in sql_queries.py to to create and delete tables and add data.
- + [etl.py] - This file copy data from s3 to staging table and then create fact and dimension tables.
- + [Project 2] - Cloud Warehouse.ipynb - This file will run ETL pipeline. It also includes adding and cleaning up AWS resources.
- + [sql_queries.py] - This includes all sql queries for ETL pipeline.
+* **src**
+     + [create_tables.py] -- This file will execute queries in sql_queries.py to to create and delete tables and add data.
+     + [etl.py] - This file copy data from s3 to staging table and then create fact and dimension tables.
+     + [Project 2] - Cloud Warehouse.ipynb - This file will run ETL pipeline. It also includes adding and cleaning up AWS resources.
+     + [sql_queries.py] - This includes all sql queries for ETL pipeline.
 
 
 ### **Important Note**
