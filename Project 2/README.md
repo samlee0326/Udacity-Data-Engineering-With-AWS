@@ -19,11 +19,11 @@ One bucket contains infomation for song (songs and artist) and the other bucket 
 
 ### Staging Tables
 
-**_staging_events_**: contains information for user activity.
+_staging_events_: contains information for user activity.
 
-**_staging_songs_**: contains information for song and artist.
+_staging_songs_: contains information for song and artist.
 
-**Analytical Tables**
+### Analytical Tables
 
 + **Fact Table** 
     - **songplays**: records in event data associated with song plays i.e. records with page NextSong
