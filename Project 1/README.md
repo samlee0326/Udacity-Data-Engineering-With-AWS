@@ -22,5 +22,5 @@ Files and their purposes:
 |File      |Info|
 |----------|--------|
 |event_data|CSV files partitioned by date.|
-|images  |Image files to explain/demonstrate concept.|
+|etc  |Contains a image file for jupyter notebook, and a csv file for processed data|
 |Modeling_with_Apache_Cassandra.ipynb| A Jupyter notebook file to create database and query data.|
