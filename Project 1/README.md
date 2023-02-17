@@ -20,7 +20,7 @@ Here are examples of filepaths to two files in the dataset.
 ### Project Structure
 Files and their purposes:
 
-|File      |Info|
+|<div align="center">File</div>|<div align="center">Info</div>|
 |----------|--------:|
 |<div align="center">event_data</div>|<div align="center">CSV files partitioned by date.</div>|
 |<div align="center">etc</div>|<div align="center">Contains a image file for jupyter notebook, and a csv file for processed data.</div>|
