@@ -21,7 +21,7 @@ Here are examples of filepaths to two files in the dataset.
 Files and their purposes:
 <div align="center">
 |File      |Info|
-|----------|--------|
+|:----------:|--------:|
 |event_data|CSV files partitioned by date.|
 |etc  |Contains a image file for jupyter notebook, and a csv file for processed data|
 |Modeling_with_Apache_Cassandra.ipynb| A Jupyter notebook file to create database and query data.|
