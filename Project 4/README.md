@@ -37,4 +37,4 @@ A project template is provided and takes care of all the imports and provides fo
     Check no empty table after data loading. More tests can be added into this operator to ensure data quality
 
 ### Database Schema
-![Alt text](./image/ER_DIAGRAM.drawio.png "Database Schema")
+![Alt text](./image/ER_DIAGRAM.png "Database Schema")
