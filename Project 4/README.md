@@ -10,10 +10,31 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 ### Poject Overview
 This project will introduce you to the core concepts of Apache Airflow. To complete the project, you will need to create your own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
 
-We have provided you with a project template that takes care of all the imports and provides four empty operators that need to be implemented into functional pieces of a data pipeline. The template also contains a set of tasks that need to be linked to achieve a coherent and sensible data flow within the pipeline.
-
-You'll be provided with a helpers class that contains all the SQL transformations. Thus, you won't need to write the ETL yourselves, but you'll need to execute it with your custom operators.
-
+A project template is provided and takes care of all the imports and provides four empty operators that need to be implemented into functional pieces of a data pipeline. The template also contains a set of tasks that need to be linked to achieve a coherent and sensible data flow within the pipeline.
 
 ![Alt text](./image/DAG_ETL_Process.jpg "Data Pipeline with DAG")
 
+### Operators
+
+1. `Begin_execution` & `End_execution`
+
+    Dummy operators at data pipeline end points
+
+2. `Creating_Table`
+
+    Create staging and loading tables 
+
+3. `Stage_events` & `Stage_songs`
+
+    Extract/Transform data from S3 to Redshift to create staging tables
+
+4. `Load_songplays_fact_table` & `Load_*_dim_table`
+    
+    Load data from staging tables to dimensional tables
+
+5. `Run_data_quality_checks` 
+    
+    Check no empty table after data loading. More tests can be added into this operator to ensure data quality
+
+### Database Schema
+![Alt text](./image/ER_DIAGRAM.drawio.png "Database Schema")
